@@ -4,13 +4,11 @@
         - dev
 ---
 spring:
-    profiles:
-        active: dev
+    profiles: dev
     application:
         name: springcloud-config-huihui-dev
 ---
 spring:
-    profiles:
-        active: test
+    profiles: test
     application:
         name: springcloud-config-huihui-test
