@@ -12,4 +12,4 @@ spring:
   profiles:
     active: test
   application:
-    name: springcloud-config-huihui-dev
+    name: springcloud-config-huihui-test
