@@ -10,7 +10,7 @@ spring:
     application:
         name: springcloud-config-huihui-dev
 eureka:
-    client
+    client:
         service-url:
             defaultZone: http://eureka-dev.com:7001/eureka/
 ---
@@ -21,6 +21,6 @@ spring:
     application:
         name: springcloud-config-huihui-test
 eureka:
-    client
+    client:
         service-url:
             defaultZone: http://eureka-dev.com:7001/eureka/
